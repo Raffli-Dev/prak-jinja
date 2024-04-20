@@ -1,0 +1,37 @@
+{% include 'header.html' %}
+    <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Dashboard</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- looping --->
+            <div class="col">
+                <div class="card">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
+                        alt="Hollywood Sign on The Hill" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Fruits Name</h5>
+                            <h5 class="card-title" style="color: brown;">Rp.13000</h5>
+                        </div>
+                        <p class="card-text">
+                            This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- looping --->
+
+        </div>
+    </main>
+    {% include 'footer.html' %}
