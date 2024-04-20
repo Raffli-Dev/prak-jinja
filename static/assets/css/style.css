@@ -13,12 +13,6 @@
   scroll-behavior: smooth;
 }
 
-@media (max-width: 600px) {
-  .sidebar {
-    display: none;
-  }
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   background: #fce7e7;
